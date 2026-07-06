@@ -56,8 +56,8 @@ export function PaywallScreen({ shop, onActivated, onLogout }) {
         <div style={{ fontSize: 13, color: C.faint, marginTop: 4 }}>Un seul abonnement pour tout gérer : stock, ventes, crédit.</div>
       </div>
       <Card style={{ textAlign: 'center', background: '#FFF3E9', borderColor: C.orange }}>
-        <div style={{ fontSize: 12, fontWeight: 700, color: C.orange, textTransform: 'uppercase' }}>Abonnement mensuel</div>
-        <div style={{ fontSize: 30, fontWeight: 800, color: C.ink, fontFamily: "'Space Grotesk', sans-serif" }}>1 500 FCFA</div>
+        <div style={{ fontSize: 12, fontWeight: 700, color: C.orange, textTransform: 'uppercase' }}>Abonnement annuel</div>
+        <div style={{ fontSize: 30, fontWeight: 800, color: C.ink, fontFamily: "'Space Grotesk', sans-serif" }}>7 000 FCFA</div>
       </Card>
       {step === 'form' && (
         <>
